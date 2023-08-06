@@ -22,7 +22,6 @@ from pytorch_lightning.loggers import CSVLogger
 
 from torchvision.models import resnet18
 
-import os
 from torch.utils.data import Dataset
 
 #予測モデル構築

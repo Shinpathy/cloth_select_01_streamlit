@@ -6,5 +6,4 @@ torchvision
 pytorch_lightning
 torchmetrics
 torchsummary
-os
 Pillow
