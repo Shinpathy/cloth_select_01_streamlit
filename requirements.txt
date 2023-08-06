@@ -1,0 +1,11 @@
+streamlit
+numpy
+pandas
+matplotlib
+PIL
+torch
+torchvision
+pytorch_lightning
+torchmetrics
+torchsummary
+os
