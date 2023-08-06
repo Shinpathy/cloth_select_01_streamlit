@@ -80,7 +80,7 @@ def preprocess_image(image):
 #ネットワークの準備
 net = Net().cpu().eval()
 #重みの読み込み
-net.load_state_dict(torch.load('/Users/shinichirotakeda/Desktop/Streamlit_for_app/cloth_selection.pt', map_location=torch.device('cpu')))
+net.load_state_dict(torch.load('cloth_selection.pt', map_location=torch.device('cpu')))
 
 #streamlitアプリのメインコード
 def main():
